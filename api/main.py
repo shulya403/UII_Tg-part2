@@ -1,7 +1,7 @@
 # импорт библиотек
 from fastapi import FastAPI                         # библиотека FastAPI
 from pydantic import BaseModel                      # модуль для объявления структуры данных
-from chunks import Chunk                            # модуль для работы с OpenAI
+from chunks_g4a import Chunk                            # модуль для работы с OpenAI
 from fastapi.middleware.cors import CORSMiddleware  # класс для работы с CORS
 from fastapi.responses import JSONResponse
 
